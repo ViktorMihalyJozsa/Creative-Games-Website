@@ -1,0 +1,91 @@
+/*  ========================================================================  *\
+    
+    C O M P O N E N T S . C S S
+    
+\*  ========================================================================  */
+
+/*  ========================================================================  *\
+    F O N T ' S
+\*  ========================================================================  */
+
+h1 {
+    font-size:       10vh;     /*  FHD 1vh=7.2px ~ 10vh=72px  */
+    letter-spacing:  1.388vh;  /*  10px  */
+    line-height:     12.5vh;   /*  90px  */
+    font-weight:     bold;
+
+    text-shadow:     1.250vh 1.250vh 1.250vh gray, -0.416vh -0.416vh black;  /*  9px - 3px  */
+}
+
+h2 {
+    font-size:       6.666vh;  /*  48px  */
+    letter-spacing:  0vh;      /*  0px   */
+    line-height:     6.666vh;  /*  48px  */
+    font-weight:     bold;
+
+    text-shadow:     1.250vh 1.250vh 1.250vh gray, -0.416vh -0.416vh black;  /*  9px - 3px  */
+}
+
+h3, h4 {
+    display:          block;
+    text-decoration:  none;
+    cursor:           pointer;
+    transition:       0.5s;
+
+    font-size:       5vh;  /*  36px  */
+    letter-spacing:  0vh;  /*  0px   */
+    line-height:     7vh;  /*  36px  */
+    font-weight:     bold;
+    text-shadow:     0.833vh 0.833vh 0.833vh black, -0.277vh -0.277vh black;  /*  6px - 2px  */
+}
+
+h5, a {
+    font-size:       3.333vh;  /*  24px  */
+    letter-spacing:  0vh;      /*  0px   */
+    line-height:     4.166vh;  /*  30px  */
+    font-weight:     bold;
+    text-shadow:     0.414vh 0.414vh 0.414vh black, -0.138vh -0.138vh black;  /*  3px - 1px  */
+}
+
+    a {
+        display:          block;
+        text-decoration:  none;
+        cursor:           pointer;
+        transition:       0.5s;
+    }
+
+p {
+    font-size:       2.5vh;  /*  18px  */
+    letter-spacing:  0vh;    /*  0px   */
+    line-height:     3.5vh;  /*  18px  */
+    font-weight:     bold;
+    text-shadow:     0.138vh 0.138vh 0.138vh black, -0.138vh -0.138vh black;  /*  1px - 1px  */
+}
+
+h1, h2         {color: whitesmoke;}
+h3, h4, a      {color: wheat;}
+
+    h3:hover, 
+    h3:focus, 
+    a:hover    {color:  lime;}
+    
+    h4:hover, 
+    h4:focus   {color: orangered;}
+
+h5             {color:  wheat;}
+p              {color:  lightgoldenrodyellow;}
+
+
+
+/*  ========================================================================  *\
+    T E X T  :  L E F T  -  C E N T E R  -  R I G H T
+\*  ========================================================================  */
+
+.left   {text-align: left;}
+.center {text-align: center;}
+.right  {text-align: right;}
+
+
+/*  ========================================================================  *\
+    
+\*  ========================================================================  */
