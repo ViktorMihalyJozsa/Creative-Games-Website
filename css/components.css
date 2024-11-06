@@ -87,5 +87,20 @@ p              {color:  lightgoldenrodyellow;}
 
 
 /*  ========================================================================  *\
-    
+    @ M E D I A ( M A X W I D T H :  7 6 8 P X ) -  R E S P O N S I V E
 \*  ========================================================================  */
+
+@media screen and (max-width: 768px) {
+    h3, h4 {
+        display:          block;
+        text-decoration:  none;
+        cursor:           pointer;
+        transition:       0.5s;
+    
+        font-size:       4.166vh;  /*  30px  */
+        letter-spacing:  0vh;  /*  0px   */
+        line-height:     7vh;  /*  50px  */
+        font-weight:     bold;
+        text-shadow:     0.833vh 0.833vh 0.833vh black, -0.277vh -0.277vh black;  /*  6px - 2px  */
+    }
+}
